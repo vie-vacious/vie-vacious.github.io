@@ -4,6 +4,10 @@ html {
   font-family: Arial, sans-serif;
 }
 
+body {
+  background-color: #FFFFFF;
+}
+
 .header {
   padding-top: 120px;
   padding-bottom: 40px;
@@ -56,8 +60,8 @@ li a:hover {
 }
 
 #middle {
-  float: left;
-  width: 55%;
+  max-width: 105em;
+  margin: 0 auto;
 }
 
 .carousel-inner img {
